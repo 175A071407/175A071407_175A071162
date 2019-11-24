@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển</title>
+    <link rel="stylesheet" href="./dinh-dang13.css">
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Đăng ký du lịch</h1>
+            <table border="1" cellpadding = "10" cellspacing = "0">
+                <tr>
+                    <td id="mauxanh">Họ và tên</td>
+                    <td><input type="text" value="Phạm Ngọc Cẩm Đào"></td>
+                </tr>
+                <tr>
+                    <td id="mauxanh">Địa chỉ</td>
+                    <td><input type="text" value="227 Nguyễn Văn Cừ"></td>
+                </tr>
+                <tr>
+                    <td id="mauxanh">Điện thoại</td>
+                    <td><input type="text" value="8351056"></td>
+                </tr>
+                <tr>
+                    <td id="mauxanh">Khách Việt Nam</td>
+                    <td><input type="checkbox" checked = "checked"></td>
+                </tr>
+                <tr>
+                    <td id="mauxanh">Chọn tour</td>
+                    <td>
+                        <select>
+                            <optgroup label="Miền Bắc">
+                                <option>Hà Nội - Hạ Long - Sapa</option>
+                                <option>Hà Nội - Chùa Hương - Ninh Bình</option>
+                                <option>Hà Nội - Cát Bà - Tuần Châu</option>
+                            </optgroup>
+                            <optgroup label="Miền Trung">
+                                <option>Huế - Bạch Mã - Đà Nẵng</option>
+                                <option>Nha Trang - Đà Lạt</option>
+                                <option>Buôn Mê Thuột - Gia Lai - Kontum</option>
+                            </optgroup>
+                            <optgroup label="Miền Nam">
+                                <option>TP.HcM - Cần Thơ - Cà Mau</option>
+                                <option>TP.HCM - Mỹ Tho</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="mauxanh">
+                    <td>Phương tiện</td>
+                    <td>
+                        <input type="radio" name="Phương tiện" checked = "checked"/>Máy bay
+                        <input type="radio" name="Phương tiện"/>Xe ô tô
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset id="mauxanh">
+                            <legend id="maucam">Số lượng đoàn khách:</legend>
+                            Người lớn: <input type="text" value="6">
+                            Trẻ em: <input type="text" value="4">
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="mauxanh">Ghi chú thêm</td>
+                    <td>
+                        <textarea>
+                            Có 2 trẻ em dưới 6 tuổi
+                            Có 2 người ăn chay
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button onclick="Đồng ý">Đồng ý</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="maucam" colspan="2">Bạn đã đăng ký thành công!!!</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: midnightblue;
+}
+div{
+    text-align: center;
+}
+table{
+    display: inline-table;
+    background-color: #f7ceb3;
+}
+textarea{
+    width: 200px;
+    height: 60px;
+}
+#mauxanh{
+    color: darkcyan;
+}
+#maucam{
+    color: darkgoldenrod;
+    width: 350px;
+    height: 55px;
+}

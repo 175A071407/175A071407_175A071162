@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: orange;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange;   
+}
+font{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+p{
+    text-align: right;
+    color: #ffffff;
+    background-color: orange;
+}
+p2{
+    font-weight: bold;
+    color: red;
+}
+i{
+    background-color: yellow;
+}
+#doanvan2{
+    text-align: right;
+
+}

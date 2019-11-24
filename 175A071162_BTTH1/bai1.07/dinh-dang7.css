@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: #ff3399;
+}
+div{
+    display: flex;
+}
+font{
+    background-color: #ff3399;
+    color: #ffffff;
+    font-weight: bold;
+}
+

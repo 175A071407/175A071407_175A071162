@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: #cc6600;
+}
+div{
+    display: flex;    
+}
+img{
+    text-align: left;
+    height: 400px;
+    width: 300px;
+}
+table{
+    border-color: darkmagenta;
+    border-collapse: separate;
+    width: 50%;
+}
+th{
+    background-color: #cc6600;
+    color: #ffffff;
+}
+body{
+    background-color: #ffedca;
+    text-align: center;
+}
+#mautrang{
+    background-color: #ffffff;
+}

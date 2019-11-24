@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: #006600;
+}
+h2 {
+    text-decoration: underline;
+    color: #0000ff;
+}
+p {
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #ff3399;
+    background-color: #fecffd;
+}
+div {
+    text-align: center;
+    font-style: italic;
+    background: #ffffcc;
+}
+p1 {
+    color: #0000ff;
+}
+p2 {
+    color: orangered;
+}
+p3 {
+    color: #006600;
+}
+hr {
+    width: 150px;
+}
