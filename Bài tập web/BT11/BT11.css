@@ -1,0 +1,13 @@
+div {
+    text-align: center;
+}
+table {
+    display: inline-table;
+    background-color: #d9fcf6;
+}
+h1 {
+    color: red;
+}
+#id1 {
+    color:blue;
+}

@@ -1,0 +1,17 @@
+body {
+    color: #008888;
+    background-image: url(img/cỏ\ bốn\ lá.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+ }
+ h1 {
+    color: #008888 ;
+    text-align: center;
+}
+div { 
+    color: #FFFFFF;
+    background-color: #339999;
+    font-weight:bold;
+    font-style: italic;
+
+}

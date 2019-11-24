@@ -1,0 +1,30 @@
+h1 {
+      color: #CC0033;
+      text-align: center;
+      
+}
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-color:red;
+    height: 300px;
+
+}
+#id1 {
+    color:white;
+    background-color:#CC0033 ;
+    font-weight: bold;
+}
+#id2 {
+    color: #CC0033;
+}
+#id4 {
+    text-align: left;
+}
+#id3 {
+    text-align: left;
+}

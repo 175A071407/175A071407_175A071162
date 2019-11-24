@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: coral;
+    border-style: double;
+    border-color: coral;
+
+
+}
+font {
+    color: maroon;
+    font-weight: bold;
+    
+}
+#id2 {
+    text-align: right;
+    color: white; 
+    background-color: orangered;
+    font-weight: bold;
+    
+}
+#id3 {
+    text-align: right;
+}
+i{
+    background-color: yellow;
+}
+.f1{
+    
+    font-size: 3vw;
+}

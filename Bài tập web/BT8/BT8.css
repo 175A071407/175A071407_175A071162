@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    color: #CC6600 ;
+}
+body {
+    background-color: #FFEDCA ;
+}
+table ,th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+#id1 { background-color: #CC6600}
+#id2 {background-color: white}
+#id3 {text-align: center;}
